@@ -1,0 +1,22 @@
+body {
+    background: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.assignment{
+    display:flex;
+    padding:10px;
+    margin:10px;
+    background:beige
+}
+
+.assignment img {
+    width:200px;
+    padding:10px;
+}
+
+h1{
+    color:palegreen;
+    text-align: center;
+    
+}
