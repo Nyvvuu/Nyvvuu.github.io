@@ -1,0 +1,40 @@
+body {
+    background: #FCDCEB;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.assignment{
+    display:flex;
+    padding:15px;
+    margin:10px;
+    background:beige
+}
+
+.assignment img {
+    width:200px;
+    margin: 10px;
+    border: 4px solid #F089B2;
+}
+
+.assignment img:hover {
+    border: 4px solid #D9667A;
+}
+
+h1{
+    color: #FC83EB;
+    text-align: center;
+    
+}
+
+h1:hover {
+    color: #D9667A;
+}
+
+a {
+    text-decoration: none;
+    color: #F089B2;
+}
+
+a:hover {
+    columns: #D9667A;
+}
