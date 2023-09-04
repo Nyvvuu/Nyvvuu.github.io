@@ -1,0 +1,57 @@
+/* Structure */
+body{
+    background: #a2c093;
+}
+
+#content {
+    background: #96bd83;
+    width: 75%;
+    margin:auto;
+    padding : 0 5px;
+    border-radius: 5px;
+}
+
+/* navigation*/
+#main-nav a{
+    text-decoration: none;
+    background: #9fbe8f;
+    color: black;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+#main-nav a:hover{
+    background: #96bd83;
+}
+
+/* images */
+img{
+    border:5px solid olive;
+    border-radius: 5px;
+}
+
+/*tables */
+table{
+    border-collapse: collapse;
+}
+th,
+td{
+    border: 1px solid grey;
+    padding: 4px;
+}
+th{
+    background: #557644;
+}
+td{
+    background: #648b50;
+}
+
+/* typography */
+h1{
+    color:#31933c;
+    font-style: italic;
+}
+
+h2{
+    color: #6f9b59;
+}
