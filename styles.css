@@ -1,13 +1,49 @@
 /*structure */
 body{
-    background: rebeccapurple;  
+    background: #e8ded1;  
 }
 /*navigation*/
 
-/*tables*/
+#list-nav a{
+    text-decoration: none;
+    background: #c8ad7e;
+    color: black;
+    padding: 4px;
+    border-radius: 3px;
+}
 
+#list-nav a:hover{
+    background: darkolivegreen;
+}
+/* images */
+img{
+    border:5px solid pink;
+    border-radius: 5px;
+}
+/*tables*/
+table{
+    border-collapse: collapse;
+}
+
+th,
+td{
+    border: 1px solid grey;
+    padding: 4px;
+}
+
+th{
+    background: palevioletred;
+}
+td{
+    background: darkgrey;
+}
 /* typography*/
 
 h1{
-    color:fuchsia;
+    color:#bfaa8c;
+    font-style: italic;
+}
+
+h2{
+    color:#d3d0c9;
 }
