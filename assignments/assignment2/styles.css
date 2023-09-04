@@ -1,10 +1,11 @@
 /* Structure */
 body{
-    background: #a2c093;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images/pretty\ kitty.jpg);
 }
 
 #content {
-    background: #96bd83;
+    background: rgb(150, 189, 131);
     width: 75%;
     margin:auto;
     padding : 0 5px;
