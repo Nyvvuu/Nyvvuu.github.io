@@ -1,96 +1,90 @@
-/*Structure*/
-#main-header{
+/* Structure */
+#main-header {
     background-color: white;
 }
 
-#main-content{
+#main-content {
     background-color: blue;
     padding: 5px;
 }
-#main-footer{
+
+#main-footer {
     background-color: purple;
     padding: 5px;
 }
-.column{
-    padding: 5px;
-    margin: 5px;
-    border-radius: 2px;
+
+/* Column Styles */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
 }
-.col1o2{
-    background-color: white;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 2px;
-}
-.col1o3, .col2o3{
-    background-color: grey;
+
+.col1o2,
+.col1o3,
+.col1o4,
+.col2o3,
+.col2o4 {
+    flex: 1;
     padding: 5px;
     margin: 5px;
     border-radius: 2px;
 }
 
-.col1o4, .col2o4{
-    background-color: pink;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 2px;
-}
-/* Navigation*/
-
-#main-nav ul{
+/* Navigation */
+#main-nav ul {
     padding-left: 0;
 }
 
-#main-nav li{
+#main-nav li {
     list-style-type: none;
     padding: 5px;
     background-color: lightcoral;
     border-bottom: 1px solid gray;
 }
 
-#main-nav a{
+#main-nav a {
     text-decoration: none;
     background: #F2BDC2;
     padding: 5px;
     color: white;
     border-radius: 2px;
 }
-#main-nav a:hover{
+
+#main-nav a:hover {
     color: #91A681;
 }
 
-/*Typography*/
-body{
+/* Typography */
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#main-header h1{
-    text-align: center;
-}
-#main-content h2{
-    color: white;
-}
-#main-footer p{
+#main-header h1 {
     text-align: center;
 }
 
-/*Larger Resolution*/
+#main-content h2 {
+    color: white;
+}
+
+#main-footer p {
+    text-align: center;
+}
+
+/* Larger Resolution (600px) */
 @media (min-width: 600px) {
-    #main-nav ul,
-    .flex-container{
-        display: flex;
-    }
-    #main-nav li,
     .col1o2,
     .col1o3,
-    .col1o4{
+    .col1o4,
+    .col2o3,
+    .col2o4 {
         flex: 1;
     }
-    body{
+    body {
         background-color: lightblue;
     }
     .col2o3,
-    .col2o4{
+    .col2o4 {
         flex: 2;
     }
 }
