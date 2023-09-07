@@ -33,11 +33,19 @@
 
 .col1o2{
     background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    flex: 1;
 }
 
 .col1o3,
 .col2o3{
     background-color: azure;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    flex: 1;
 }
 
 /* Navigation */
