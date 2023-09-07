@@ -44,11 +44,17 @@ body{
     margin: 5px;
     border-radius: 5px;
 }
-/* Main Navigation*/
+/* Navigation*/
+
+#main-nav ul{
+    padding-left: 0;
+}
 
 #main-nav li{
     list-style-type: none;
-    display: inline-block;
+    padding: 5px;
+    background-color: lightcoral;
+    border-bottom: 1px solid gray;
 }
 
 #main-nav a{
