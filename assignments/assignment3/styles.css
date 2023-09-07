@@ -73,6 +73,13 @@ body {
 
 /* Larger Resolution (600px) */
 @media (min-width: 600px) {
+
+    #main-nav ul{
+        display: flex;
+    }
+    #main-nav li{
+        flex: 1;
+    }
     .col1o2,
     .col1o3,
     .col1o4,
