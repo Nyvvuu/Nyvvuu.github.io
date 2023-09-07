@@ -11,6 +11,11 @@
     background-color: purple;
     padding: 5px;
 }
+.column{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
 .col1o2{
     background-color: white;
     padding: 5px;
