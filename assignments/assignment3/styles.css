@@ -16,7 +16,6 @@
 /* Column Styles */
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .col1o2,
@@ -24,7 +23,6 @@
 .col1o4,
 .col2o3,
 .col2o4 {
-    flex: 1;
     padding: 5px;
     margin: 5px;
     border-radius: 2px;
@@ -73,13 +71,16 @@ body {
 
 /* Larger Resolution (600px) */
 @media (min-width: 600px) {
+    #main-nav ul,
+    .flex-container{
+        display: flex;
+    }
+
     .col1o2,
-    .col1o3,
-    .col1o4,
-    .col2o3,
-    .col2o4 {
+    .col1o3{
         flex: 1;
     }
+
     body {
         background-color: lightblue;
     }
