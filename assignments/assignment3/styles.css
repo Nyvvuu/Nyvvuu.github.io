@@ -30,10 +30,19 @@
     border-radius: 2px;
 }
 
+.col1o2{
+    background-color: antiquewhite;
+}
+
+.col1o3,
+.col2o3{
+    background-color: azure;
+}
+
 /* Navigation */
 #main-header {
     background-color: white;
-    display: flex; /
+    display: flex; 
 }
 
 #main-nav ul {
