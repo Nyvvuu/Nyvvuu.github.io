@@ -58,7 +58,7 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
-
+    display: flex;
 }
 
 #main-nav li {
@@ -96,6 +96,7 @@ body {
 }
 #placeholder {
     text-align: center;
+    display: flex;
 }
 
 /* Larger Resolution (600px) */
