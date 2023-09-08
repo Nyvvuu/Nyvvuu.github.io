@@ -94,6 +94,9 @@ body {
 #main-footer p {
     text-align: center;
 }
+#placeholder {
+    text-align: center;
+}
 
 /* Larger Resolution (600px) */
 @media (min-width: 600px) {
