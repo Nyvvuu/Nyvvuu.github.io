@@ -51,14 +51,14 @@
 /* Navigation */
 #main-header {
     background-color: white;
-    display: flex; 
+    
 }
 
 #main-nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex;
+
 }
 
 #main-nav li {
