@@ -2,14 +2,22 @@
 #main-header{
     background-color: #bfaa8c;
 }
+#title{
+    text-align: center;
+    color: black;
+}
 #main-content{
     background-color: olive;
     padding: 5px;
+    text-align: center;
 }
 
 /* Column style */
 .col1o3{
     background-color: bisque;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
 }
 
 /* images */
