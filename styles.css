@@ -1,41 +1,21 @@
 /*structure */
-body{
-    background: #e8ded1;  
+#main-header{
+    background-color: #bfaa8c;
 }
-/*navigation*/
-
-#list-nav a{
-    text-decoration: none;
-    background: #c8ad7e;
-    color: black;
-    padding: 4px;
-    border-radius: 3px;
+#main-content{
+    background-color: olive;
+    padding: 5px;
 }
 
-#list-nav a:hover{
-    background: darkolivegreen;
+/* Column style */
+.col1o3{
+    background-color: bisque;
 }
+
 /* images */
 img{
     border:5px solid pink;
     border-radius: 5px;
-}
-/*tables*/
-table{
-    border-collapse: collapse;
-}
-
-th,
-td{
-    border: 1px solid grey;
-    padding: 4px;
-}
-
-th{
-    background: palevioletred;
-}
-td{
-    background: darkgrey;
 }
 /* typography*/
 
@@ -46,4 +26,8 @@ h1{
 
 h2{
     color:darkolivegreen;
+}
+/* Larger Resolution (600px) */
+@media (min-width: 600px) {
+    
 }
