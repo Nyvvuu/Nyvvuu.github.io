@@ -5,13 +5,14 @@ body, h1,p,ul,li{
 }
 /*navigation*/
 
-.flex-container1{
-    list-style: none;
-    padding: 0; 
-    display: flex;
+.horizontal-list {
+    list-style: none; /* Remove the default list bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox to create a horizontal layout */
 }
-.flex-container1 li{
-    margin-right: 10px;
+
+.horizontal-list li {
+    margin-right: 10px; /* Add spacing between list items */
 }
 h2{
     font-size: 24px;
