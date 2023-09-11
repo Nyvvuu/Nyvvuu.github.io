@@ -35,22 +35,27 @@ a:hover {
 
 /* Additional styles for specific sections */
 #colleges-schools {
-    background-color: #f2f2f2;
+    background-color: #73000a;
     padding: 40px 0;
 }
 
 #offices-divisions {
-    background-color: #f9f9f9;
+    background-color: #73000a;
     padding: 40px 0;
 }
 
 #tools {
-    background-color: #fcfcfc;
+    background-color: #73000a;
     padding: 40px 0;
 }
 
 @media(max-width:600px){
-    
+    ul{
+        display: flex;
+    }
+    li{
+        flex: 1;
+    }
 }
 
 
