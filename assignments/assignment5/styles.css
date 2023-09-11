@@ -1,25 +1,27 @@
-/* Structure*/
-body, h1,p,ul,li{
+/* Structure */
+body, h1, p, ul, li {
     margin: 0;
     padding: 0;
 }
-/*navigation*/
 
+/* Navigation */
 .horizontal-list {
-    list-style: none; /* Remove the default list bullet points */
-    padding: 0; /* Remove default padding */
-    display: flex; /* Use flexbox to create a horizontal layout */
+    list-style: none;
+    padding: 0;
+    display: flex;
     text-align: center;
 }
 
 .horizontal-list li {
-    margin-right: 10px; /* Add spacing between list items */
+    margin-right: 10px;
     text-align: center;
 }
-h2{
+
+h2 {
     font-size: 24px;
 }
-/* list links */
+
+/* List links */
 ul {
     list-style: none;
 }
@@ -54,27 +56,16 @@ a:hover {
     background-color: #73000a;
     padding: 40px 0;
 }
+
 .section-container {
-    display: flex; /* Use flexbox to create a horizontal layout */
+    display: flex;
 }
 
 .section {
-    flex: 1; /* Distribute available space equally among sections */
+    flex: 1;
     padding: 20px;
     border: 1px solid #ccc;
     text-align: center;
-}
-
-@media (max-width: 900px) {
-    ul {
-        display: flex;
-    }
-    li {
-        flex: 1;
-    }
-    #flex-container1 {
-        flex: 2;
-    }
 }
 
 
