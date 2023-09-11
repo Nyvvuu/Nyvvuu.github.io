@@ -9,6 +9,7 @@ body, h1,p,ul,li{
     list-style: none; /* Remove the default list bullet points */
     padding: 0; /* Remove default padding */
     display: flex; /* Use flexbox to create a horizontal layout */
+    text-align: center;
 }
 
 .horizontal-list li {
