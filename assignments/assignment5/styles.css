@@ -56,6 +56,10 @@ a:hover {
     li{
         flex: 1;
     }
+    #flex-container1{
+        flex: 2
+        ;
+    }
 }
 
 
