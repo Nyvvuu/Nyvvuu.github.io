@@ -65,18 +65,19 @@ a:hover {
     text-align: center;
 }
 
-@media(max-width:900px){
-    ul{
+@media (max-width: 900px) {
+    ul {
         display: flex;
     }
-    li{
+    li {
         flex: 1;
     }
-    #flex-container1{
-        flex: 2
-        ;
+    #flex-container1 {
+        flex: 2;
     }
 }
+
+
 
 
 
