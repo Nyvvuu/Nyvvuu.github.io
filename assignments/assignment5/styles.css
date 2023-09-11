@@ -54,6 +54,16 @@ a:hover {
     background-color: #73000a;
     padding: 40px 0;
 }
+.section-container {
+    display: flex; /* Use flexbox to create a horizontal layout */
+}
+
+.section {
+    flex: 1; /* Distribute available space equally among sections */
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
 
 @media(max-width:600px){
     ul{
