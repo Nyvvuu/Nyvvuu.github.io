@@ -6,7 +6,7 @@
 
 /* Hide and seek sections*/
 /*Animation sections*/
-.ball{
+#ball{
     background-color: blanchedalmond;
     width: 100px;
     line-height: 100px;
