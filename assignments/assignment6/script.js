@@ -6,15 +6,9 @@ const bounceBall = () => {
 };
 
 /* hide and show */
-window.onload = () => {
-    // Initially, remove the "bounce" class to stop the animation
-    ballElement.classList.remove("bounce");
-    
-    document.getElementById("bounce-button").onclick = bounceBall;
-};
 const image = document.getElementById("image");
-const showButton = document.getElementById("show");
-const hideButton = document.getElementById("hide");
+const show = document.getElementById("show");
+const hide = document.getElementById("hide");
 
 // Add click event listeners to the show and hide buttons
 showButton.addEventListener("click", () => {
