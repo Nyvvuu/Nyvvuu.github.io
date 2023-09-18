@@ -1,3 +1,4 @@
-window.onload = () => {};
-
-const bounceButton=document.getElementById("bounce-Button");
+const bounceBall =()=>{
+    const ballElement =document.getElementById("ball");
+    ballElement.classList.add("bounce");
+};
