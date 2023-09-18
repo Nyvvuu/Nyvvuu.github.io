@@ -3,6 +3,6 @@ const bounceBall =() =>{
     ballElement.classList.add("bounce");
 }
 window.onload=()=>{
-    document.getElementById("bounce-button")  .onclick = bounceBall;  
+    document.getElementById("bounce-button").onclick = bounceBall;  
     
 };
