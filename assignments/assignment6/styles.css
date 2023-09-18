@@ -58,7 +58,11 @@
         display: flex;
     }
     .col1o3{
-        color: olive;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 2px;
+        color: black;
+        background-color: olive;
         flex: 1;
     }
 }
