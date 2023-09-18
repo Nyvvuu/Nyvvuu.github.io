@@ -1,3 +1,9 @@
+/*background*/
+#body{
+    background-color: bisque;
+
+}
+
 /* Hide and seek sections*/
 /*Animation sections*/
 #ball{
@@ -52,6 +58,7 @@
         display: flex;
     }
     .col1o3{
+        color: olive;
         flex: 1;
     }
 }
