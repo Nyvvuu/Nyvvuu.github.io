@@ -1,9 +1,21 @@
 /* animation script */
-let ballElement = document.getElementById("ball");
-
 const bounceBall = () => {
+   const ballElement= document.getElementById("ball");
+   const bonceButton = document.getElementById("bounce-button");
+
+   //if the ball is bouncing STOP
+   if(ballElement.classList.contains("bounce")){
+    ballElement.classList.remove("bounce");
+    bounceButton.innerHTML ="Start";
+   }else{
     ballElement.classList.add("bounce");
-};
+    bounceButton.innerHTML="Stop";
+   }
+   };
+   //execute when page loads
+   window.onload = () => {
+    document.getElementById("bounce-button").onclick=bounceBall;
+   };
 
 /* hide and show */
 const image = document.getElementById("image");
