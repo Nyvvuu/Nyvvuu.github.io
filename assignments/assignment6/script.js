@@ -1,5 +1,5 @@
 const bounceBall =() =>{
-    let ballElement = document.getElementById("ball");
+    let ballElement = document.getElementById("bounce");
     ballElement.classList.add("bounce");
 }
 window.onload=()=>{
