@@ -13,8 +13,8 @@ window.onload = () => {
     document.getElementById("bounce-button").onclick = bounceBall;
 };
 const image = document.getElementById("image");
-const showButton = document.getElementById("showButton");
-const hideButton = document.getElementById("hideButton");
+const showButton = document.getElementById("show");
+const hideButton = document.getElementById("hide");
 
 // Add click event listeners to the show and hide buttons
 showButton.addEventListener("click", () => {
