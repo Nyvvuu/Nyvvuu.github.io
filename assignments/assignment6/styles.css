@@ -1,0 +1,54 @@
+/* Hide and seek sections*/
+/*Animation sections*/
+#ball{
+    background-color: blanchedalmond;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    animation: bounce;
+    animation-duration: 1s;
+    animation-iteration-count:infinite ;
+    position: relative;
+}
+
+.bounce{
+    animation: bounce;
+    animation-duration: 1s;
+    animation-iteration-count:infinite ;
+    position: relative;
+}
+/*animation*/
+@keyframes bounce {
+    0%{
+        background-color: violet;
+        top: 0px;
+    }
+    50%{
+        background-color: grey;
+        top: 200px;
+    }
+    100%{
+        background-color: violet;
+        top: 0px;
+    }
+
+    
+}
+/* Input info sections*/
+
+
+/*typography*/
+#ball h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Larger Resolution (600px) */
+@media (min-width: 600px) {
+    .flex-container{
+        display: flex;
+    }
+    .col1o3{
+        flex: 1;
+    }
+}
