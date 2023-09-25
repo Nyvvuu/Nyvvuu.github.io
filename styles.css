@@ -20,7 +20,13 @@
     border-radius: 2px;
     text-align: center;
 }
-
+.col1o32{
+    background-color: bisque;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    text-align: center;
+}
 /* images */
 img{
     border:5px solid pink;
@@ -43,5 +49,8 @@ h2{
     }
     .col1o3{
         flex: 1;
+    }
+    .col1o32{
+        flex:1;
     }
 }
