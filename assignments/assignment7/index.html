@@ -8,9 +8,20 @@
     <body>
         <header id="main-header">
             <h1>If Statement Assignment</h1>
+            <nav id="main-nav">
+                <div id="nav-toggle">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="main-nav-items">
+                    <li id="exercise1"  >Exerise 1</li>
+                    <li id="exercise2">Exercise 2</li>
+                </ul>
+            </nav>
         </header>
         <main id=" main-content" class="columns">
-            <section class ="padded-area">
+            <section class ="padded-area" id="exercise1Content">
                 <div class="oldest">
                 <h2>Who's the oldest</h2>
                 
@@ -41,11 +52,17 @@
 
                 <button id="button-compare-ages">Compare Ages</button>
              </div>
+            </section>
+             <section class="padded-area" id="exercise2Content">
              <div class="fundraising">
                 <h2>Fund Raising</h2>
                 <h3>Goal: 10,000,000</h3>
                 <label for="text-funds">Funds Raised:</label>
+                <input type="number" id="donations">
                 <button id="button-display">Display</button>
+                <div class="show">
+                    <div class="gradient" id="gradient"></div>
+                </div>
 
              </div>
             </section>
