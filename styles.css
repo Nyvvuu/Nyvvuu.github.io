@@ -44,5 +44,8 @@ h2{
     .col1o3{
         flex: 1;
     }
+    .show{
+        flex: 1;
+    }
     
 }
