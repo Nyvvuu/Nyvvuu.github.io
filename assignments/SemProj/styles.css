@@ -1,3 +1,5 @@
-/*Structure*/
-/* Typography*/
-/*Larger resolution*/
+iframe {
+    margin: auto;
+    display: block;
+    text-align: center;
+  }

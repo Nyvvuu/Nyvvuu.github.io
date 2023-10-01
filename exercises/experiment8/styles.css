@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.running-man-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#running-man {
+    position: absolute;
+    top: 50%;
+    animation: run 4s linear infinite;
+    transition: left 0.5s, opacity 0.5s;
+}
+
+@keyframes run {
+    0%, 100% { left: -100px; opacity: 0; }
+    50% { left: calc(100% - 100px); opacity: 1; }
+}
+
+.thermometer-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.thermometer {
+    width: 20px;
+    height: 200px;
+    background: linear-gradient(to bottom, #ccc, #f00);
+    border: 1px solid #999;
+    position: relative;
+    margin: 0 auto;
+}
+
+.thermometer-liquid {
+    width: 100%;
+    height: var(--temperature, 0%);
+    background: linear-gradient(to bottom, #00f, #00f);
+    position: absolute;
+    bottom: 0;
+    transition: height 1s;
+}
+
+input[type="number"] {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
