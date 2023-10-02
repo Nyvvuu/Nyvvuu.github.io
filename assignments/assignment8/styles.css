@@ -13,10 +13,7 @@ body {
 }
 
 /* Typography */
-@keyframes run {
-    0%, 100% { left: -100px; opacity: 0; }
-    50% { left: calc(100% - 100px); opacity: 1; }
-}
+
 .running-man,
 .fundraising {
     flex: 1;
