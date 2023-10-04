@@ -24,7 +24,7 @@ body {
 }
 
 .running-man img {
-    max-width: 100%; /* Adjusted to use the full width of the column */
+    max-width: 100%; 
 }
 
 /* Resolution */
