@@ -1,0 +1,56 @@
+/*Structure*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* main content */
+#main-content {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+/* flex container */
+.flex-container{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    flex: 1;
+}
+/* quote container */
+#quote-container{
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+}
+/* rainbow container  */
+#rainbow{
+    background-color: blue;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+}
+#rainbow-button{
+    color: black;
+    background-color: gray;
+}
+
+.color-line{
+    height: 30px;
+    width: 100%;
+
+}
+
+/* larger resolution */
+@media (min-width: 600px) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #rainbow {
+        flex: 1;
+    }
+    #quote-container {
+        flex: 1;
+    }
+}

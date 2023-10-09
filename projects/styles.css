@@ -1,0 +1,30 @@
+/* Structure*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+/*Navigation*/
+ul{
+    list-style: none;
+    display: flex;
+    text-align: center ;
+}
+li{  
+    margin-bottom: 10px;
+    flex: 1;
+}
+/* orginal nav color */
+a{
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* hover color */
+a:hover{  
+    color: beige;
+}
+/* typography */
+/* Larger resolution */
