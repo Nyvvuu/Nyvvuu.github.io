@@ -5,7 +5,22 @@ body{
 h1{
     text-align: center;
 }
+
 /*Navigation*/
+#nav-toggle {
+    display: block;
+    cursor: pointer;
+}
+#nav-toggle div {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+#main-header.active #main-nav-items {
+    display: block;
+  }
 ul{
     list-style: none;
     display: flex;
@@ -27,4 +42,8 @@ a:hover{
     color: beige;
 }
 /* typography */
+
+#fact2 {
+    text-align: right;
+}
 /* Larger resolution */

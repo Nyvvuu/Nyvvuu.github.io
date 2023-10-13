@@ -5,6 +5,10 @@ body{
 h1{
     text-align: center;
 }
+#main-content{
+   text-align: center;
+}
+
 /*Navigation*/
 #nav-toggle {
     display: block;
@@ -42,3 +46,10 @@ a:hover{
 }
 /* typography */
 /* Larger resolution */
+@media (min-width: 600px) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+}
